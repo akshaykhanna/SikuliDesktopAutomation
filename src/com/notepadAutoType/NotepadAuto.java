@@ -13,6 +13,8 @@ public class NotepadAuto {
 			s.find("notepad.png"); //identify pause button
 			//s.click("recycle.png"); //click pause button
 			s.doubleClick();
+			s.find("np.png");
+			s.type("Hello ji");
 			System.out.println("notepad open");
 		} catch (Exception e) {
 			// TODO: handle exception
